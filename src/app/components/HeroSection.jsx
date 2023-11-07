@@ -42,13 +42,19 @@ const HeroSection = () => {
                         transition={{ duration: 0.7 }}
                         
                     >
-                        <a className='group bg-white text-pink-600 rounded-full gap-2 px-7 py-3 
-                            flex outline-none focus:scale-110 hover:scale-110 hover:bg-pink-500
-                            hover:text-white active:scale-105 transition cursor-pointer'
-                            href='/CV.pdf' download>
+                        <a
+                            className='group bg-white text-pink-600 rounded-full gap-2 px-7 py-3
+                                    flex outline-none focus:scale-110 hover:scale-110 hover:bg-pink-500
+                                    hover:text-white active:scale-105 transition cursor-pointer'
+                            href='yamCV.pdf' // Link to the API route
+                            download
+                            >
                             Download CV<HiDownload style={{ fontSize: "24px" }}
-                            className="opacity-60 group-hover:translate-y-1 transition"/>
-                        </a>
+                            className="opacity-60 group-hover:translate-y-1 transition"
+                            />
+                            </a>
+
+
                         
 
                         <a className='bg-white text-blue-600 rounded-full gap-2 p-4 ml-2 flex
